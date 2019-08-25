@@ -1,0 +1,19 @@
+{
+  "name": "pi-voice-node",
+  "version": "0.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/paulomcnally/pi-voice-node.git",
+  "author": "Paulo McNally <paulomcnally@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "eslint": "node_modules/eslint/bin/eslint.js . --ext .js",
+    "test": "find ./test -name '*.js' | xargs ./node_modules/mocha/bin/mocha -R spec"
+  },
+  "dependencies": {
+    "mqtt": "^3.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.2.2",
+    "mocha": "^6.2.0"
+  }
+}
